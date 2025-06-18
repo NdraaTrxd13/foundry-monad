@@ -80,7 +80,7 @@ forge create src/Counter.sol:Counter --account monad-deployer --broadcast
 
 ```shell
 forge verify-contract \
-  <contract_address> \
+  <0x81B94D92305802905d287952bC44f5FFDE952d57 \
   src/Counter.sol:Counter \
   --chain 10143 \
   --verifier sourcify \
@@ -126,7 +126,7 @@ forge create \
 
 ```shell
 forge verify-contract \
-  <contract_address> \
+   0x81B94D92305802905d287952bC44f5FFDE952d57\
   src/Counter.sol:Counter \
   --chain 10143 \
   --verifier sourcify \
